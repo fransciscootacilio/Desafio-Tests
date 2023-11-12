@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>DFBW</projectKey>
+    <exportDate>2023-11-12 16:21:15 UTC</exportDate>
+    <folders>
+        <folder fullPath="Comunicação com proprietario" index="1"/>
+        <folder fullPath="Comunicação com proprietário" index="3"/>
+        <folder fullPath="Datas Disponíveis" index="2"/>
+        <folder fullPath="Reserva de Casa" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="111951803" key="DFBW-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Francisco Otacilio Machado</createdBy>
+            <createdOn>2023-11-12 14:13:22 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Reserva de Casa]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Reservar no site de alguel]]></name>
+            <objective><![CDATA[Verificar se o processo de reserva de uma casa de temporada no site ocorre de maneira eficaz. ]]></objective>
+            <owner>62e8fb58432ef494c8c98cc4</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[<strong>Entrar no Site</strong> ]]></description>
+                        <expectedResult><![CDATA[Verifique se a p&aacute;gina inicial &eacute; carregada corretamente.]]></expectedResult>
+                        <testData><![CDATA[Acesse o site de aluguel de casas de temporada.]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[<strong>Buscar Propriedade</strong> ]]></description>
+                        <expectedResult><![CDATA[Verifique se os resultados exibem informa&ccedil;&otilde;es relevantes e corretas]]></expectedResult>
+                        <testData><![CDATA[Utilize a barra de pesquisa para encontrar uma casa de temporada em um destino espec&iacute;fico. ]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[<strong>Selecionar Casa</strong> ]]></description>
+                        <expectedResult><![CDATA[Certifique-se de que ao clicar na propriedade, voc&ecirc; &eacute; redirecionado para uma p&aacute;gina com detalhes completos. ]]></expectedResult>
+                        <testData><![CDATA[Escolha uma propriedade listada. ]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[<strong>Verificar Disponibilidade</strong> ]]></description>
+                        <expectedResult><![CDATA[Verifique se o sistema exibe informa&ccedil;&otilde;es precisas sobre a disponibilidade. ]]></expectedResult>
+                        <testData><![CDATA[Confirme a disponibilidade da casa para as datas desejadas. ]]></testData>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[<strong>Iniciar Reserva</strong>]]></description>
+                        <expectedResult><![CDATA[Garanta que o processo de reserva &eacute; iniciado sem problemas. ]]></expectedResult>
+                        <testData><![CDATA[Selecione a op&ccedil;&atilde;o de reserva ]]></testData>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[<strong>Preencher Informa&ccedil;&otilde;es</strong> ]]></description>
+                        <expectedResult><![CDATA[Certifique-se de que o sistema aceita as informa&ccedil;&otilde;es corretamente. ]]></expectedResult>
+                        <testData><![CDATA[Complete as informa&ccedil;&otilde;es necess&aacute;rias para a reserva (datas, n&uacute;mero de h&oacute;spedes, etc.). ]]></testData>
+                    </step>
+                    <step index="6">
+                        <customFields/>
+                        <description><![CDATA[<strong>Revisar Reserva:</strong>]]></description>
+                        <expectedResult><![CDATA[Garanta que todas as informa&ccedil;&otilde;es estejam corretas e que o pre&ccedil;o total seja calculado adequadamente. ]]></expectedResult>
+                        <testData><![CDATA[Revise todas as informa&ccedil;&otilde;es da reserva antes de confirmar. ]]></testData>
+                    </step>
+                    <step index="7">
+                        <customFields/>
+                        <description><![CDATA[<strong>Confirmar Reserva</strong>]]></description>
+                        <expectedResult><![CDATA[Verifique se uma mensagem de confirma&ccedil;&atilde;o &eacute; exibida na tela. ]]></expectedResult>
+                        <testData><![CDATA[Confirme a reserva. ]]></testData>
+                    </step>
+                    <step index="8">
+                        <customFields/>
+                        <description><![CDATA[<strong>Receber E-mail de Confirma&ccedil;&atilde;o:</strong> ]]></description>
+                        <expectedResult><![CDATA[Certifique-se de que o e-mail cont&eacute;m informa&ccedil;&otilde;es precisas sobre a reserva. ]]></expectedResult>
+                        <testData><![CDATA[Verifique a caixa de entrada de e-mail para confirmar se um e-mail de confirma&ccedil;&atilde;o foi recebido. ]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="111951864" key="DFBW-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Francisco Otacilio Machado</createdBy>
+            <createdOn>2023-11-12 14:23:27 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Comunicação com proprietario]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Comunicação com o Proprietário da Casa de Temporada]]></name>
+            <objective><![CDATA[Verificar se a fun&ccedil;&atilde;o de comunica&ccedil;&atilde;o com o propriet&aacute;rio ou gerente da propriedade &eacute; eficiente. ]]></objective>
+            <owner>62e8fb58432ef494c8c98cc4</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[<strong>Acessar Detalhes da Casa Reservada</strong> ]]></description>
+                        <expectedResult><![CDATA[Certifique-se de que h&aacute; um bot&atilde;o ou se&ccedil;&atilde;o para entrar em contato com o propriet&aacute;rio. ]]></expectedResult>
+                        <testData><![CDATA[Ap&oacute;s a reserva, acesse os detalhes da casa reservada. ]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[<strong>Enviar Mensagem</strong>]]></description>
+                        <expectedResult><![CDATA[Componha e envie uma mensagem com uma d&uacute;vida ou solicita&ccedil;&atilde;o. ]]></expectedResult>
+                        <testData><![CDATA[Clique no bot&atilde;o ou link para entrar em contato com o propriet&aacute;rio.]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[<strong>Receber Resposta</strong>]]></description>
+                        <expectedResult><![CDATA[Verifique se a resposta &eacute; recebida de maneira oportuna e se cont&eacute;m informa&ccedil;&otilde;es relevantes. ]]></expectedResult>
+                        <testData><![CDATA[Aguarde a resposta do propriet&aacute;rio. ]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[<strong>Responder &agrave; Mensagem:</strong> ]]></description>
+                        <expectedResult><![CDATA[Confirme se a resposta &eacute; enviada sem problemas. ]]></expectedResult>
+                        <testData><![CDATA[Responda &agrave; mensagem do propriet&aacute;rio. ]]></testData>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[<strong>Verificar Hist&oacute;rico de Mensagens</strong>]]></description>
+                        <expectedResult><![CDATA[Certifique-se de que o hist&oacute;rico de mensagens est&aacute; atualizado e exibe todas as intera&ccedil;&otilde;es. ]]></expectedResult>
+                        <testData><![CDATA[Acesse a se&ccedil;&atilde;o de mensagens no site. ]]></testData>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[<strong>Notifica&ccedil;&atilde;o por E-mail</strong>]]></description>
+                        <expectedResult><![CDATA[Certifique-se de que as notifica&ccedil;&otilde;es cont&ecirc;m informa&ccedil;&otilde;es relevantes sobre a nova mensagem. ]]></expectedResult>
+                        <testData><![CDATA[Verifique a caixa de entrada de e-mail para confirmar se notifica&ccedil;&otilde;es de novas mensagens foram recebidas. ]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="111951888" key="DFBW-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Francisco Otacilio Machado</createdBy>
+            <createdOn>2023-11-12 14:33:27 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Datas Disponíveis]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Reserva de Casa de Temporada com Datas Disponíveis]]></name>
+            <objective><![CDATA[Reservar casas com data dispon&iacute;vel.]]></objective>
+            <owner>62e8fb58432ef494c8c98cc4</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que estou no site de aluguel de casas de temporada
+And há uma casa disponível para as datas desejadas
+When eu selecionar a casa e iniciar o processo de reserva
+Then eu devo ser capaz de preencher as informações necessárias
+And a reserva deve ser confirmada com sucesso
+And eu devo receber um e-mail de confirmação com os detalhes da reserva.]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="111951899" key="DFBW-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Francisco Otacilio Machado</createdBy>
+            <createdOn>2023-11-12 14:38:17 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Comunicação com proprietário]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Comunicação Eficiente com o Proprietário da Casa de Temporada]]></name>
+            <objective><![CDATA[Verificar se a fun&ccedil;&atilde;o de comunica&ccedil;&atilde;o com o propriet&aacute;rio ou gerente da propriedade &eacute; eficiente. ]]></objective>
+            <owner>62e8fb58432ef494c8c98cc4</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que fiz uma reserva e estou nos detalhes da casa
+And há uma opção para entrar em contato com o proprietário
+When eu enviar uma mensagem com uma dúvida ou solicitação
+Then o proprietário deve receber a mensagem
+And o proprietário deve responder dentro de um prazo razoável
+And eu devo receber uma notificação por e-mail sobre a nova mensagem
+And quando eu responder à mensagem, o proprietário deve receber a resposta
+And o histórico de mensagens deve ser atualizado corretamente no site.]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
